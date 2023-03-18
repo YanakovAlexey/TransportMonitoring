@@ -1,4 +1,5 @@
 server:
+
   servlet:
     encoding:
       charset: UTF-8
@@ -17,3 +18,4 @@ spring:
 
 module-name: TransportMonitoring
 api-version: 1.0
+
