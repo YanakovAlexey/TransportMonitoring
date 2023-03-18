@@ -1,0 +1,11 @@
+server:
+  port: 7986
+spring:
+  datasource:
+    password: ivan230691
+    url: jdbc:postgresql://localhost:5432/test
+    username: transport_monitoring
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update

@@ -15,7 +15,6 @@ import java.lang.reflect.Type;
 @Entity
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class User {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)

@@ -1,7 +1,7 @@
 package com.example.application.views.authorization;
 
 import com.example.application.components.appnav.backend.ContentView;
-import com.example.application.components.appnav.backend.service.UserService;
+import com.example.application.components.appnav.backend.service.impl.UserServiceImpl;
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.login.LoginForm;
 import com.vaadin.flow.component.login.LoginI18n;
@@ -17,13 +17,13 @@ public class AuthorizationView extends Div implements BeforeEnterObserver {
     LoginI18n i18n;
     Div container = new Div();
 
-    private final UserService userService;
+    private final UserServiceImpl userServiceImpl;
 
 //    private final AuthenticatedUser authenticatedUser;
 
-    public AuthorizationView(UserService userService) {
+    public AuthorizationView(UserServiceImpl userServiceImpl) {
 
-        this.userService = userService;
+        this.userServiceImpl = userServiceImpl;
 //        this.authenticatedUser = authenticatedUser;
 
         i18n = LoginI18n.createDefault();
