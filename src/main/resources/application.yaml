@@ -1,0 +1,19 @@
+server:
+  servlet:
+    encoding:
+      charset: UTF-8
+      force-response: true
+spring:
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+
+    password: 080802Alex
+
+    url: jdbc:postgresql://localhost:5432/TransportMonitoring
+    username: postgres
+
+module-name: TransportMonitoring
+api-version: 1.0
