@@ -1,14 +1,14 @@
 package com.example.application.components.appnav.backend.dto.response;
 
-public class AutoDto {
+public class CarDto {
     private String brand;
     private String model;
     private String registrationNumber;
 
-    public AutoDto() {
+    public CarDto() {
     }
 
-    public AutoDto(String brand, String model, String registrationNumber) {
+    public CarDto(String brand, String model, String registrationNumber) {
         this.brand = brand;
         this.model = model;
         this.registrationNumber = registrationNumber;

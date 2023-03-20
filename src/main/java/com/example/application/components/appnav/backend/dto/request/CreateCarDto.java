@@ -1,11 +1,11 @@
 package com.example.application.components.appnav.backend.dto.request;
 
-public class CreateAutoDto {
+public class CreateCarDto {
     private long id;
     private String brand;
     private String registrationNumber;
 
-    public CreateAutoDto() {
+    public CreateCarDto() {
     }
 
     public long getId() {
